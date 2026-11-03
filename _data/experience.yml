@@ -19,7 +19,7 @@
   positions:
     - position: Software Engineering Intern
       duration:  Jun 2019 &mdash; Aug 2019
-      summary: 'Interned in R&D working mainly in Golang. <ul class="resume-item-list"><li>Worked on feature development for SSH-Gateway, a Kubernetes agent that spun up docker containers of WP installs to a linux shell environment to allow access via SSH</li><li>Productionized Devkit, a CLI program that utilized SSH-Gateway to clone WP installs locally to provide a Dev tool for WordPress</li><li>Implemented more accurate SLIs for SSH-Gateway through Prometheus metrics scraped by a Datadog sidecar</li></ul>'
+      summary: 'Interned in R&D working mainly in Golang. <ul class="resume-item-list"><li>Worked on feature development for SSH-Gateway, a Kubernetes agent that spun up docker containers of WP installs to a linux shell environment to allow access via SSH</li><li>Optimized client operations in Devkit, a CLI program that utilized SSH-Gateway to clone WP installs locally to provide a Dev tool for WordPress</li><li>Implemented more accurate SLIs for SSH-Gateway through Prometheus metrics scraped by a Datadog sidecar</li></ul>'
 
 
 # Experian
