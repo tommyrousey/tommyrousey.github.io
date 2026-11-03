@@ -1,7 +1,7 @@
 # ComPy-la-Webs
 - project: ComPy-la-Webs
-  description: Python to Web Assembly interpreter written in C++ that allows Python to be run in the browser, working by disassembling the Python script blocks in an HTML page into byte code and feeding that to a C++ program compiled into WASM that would run the Python byte code. Additionally, it allowed interpolation between JS and Python by allowing JS elements to be called from Python with a new unique keyword.
+  description: C++ transpiler for Python to Web Assembly to allow Python to be run in the browser, disassembling Python script blocks in an HTML page into Python byte code and translating it using C++ into WASM.
 
 # Silkbot
 -  project: Silkbot
-   description: Discord bot with Youtube integration to automatically play the latest video from @DailySilksongNews directly into voice chat
+   description: Python Discord bot with a Youtube integration to automatically play the latest video from @DailySilksongNews directly into voice chat.
