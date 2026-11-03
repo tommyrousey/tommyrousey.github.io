@@ -1,16 +1,7 @@
-# Projects
-# uncomment the urls if you wish to display them, and add your own URL
+# ComPy-la-Webs
+- project: ComPy-la-Webs
+  description: Python to Web Assembly interpreter written in C++ that allows Python to be run in the browser, working by disassembling the Python script blocks in an HTML page into byte code and feeding that to a C++ program compiled into WASM that would run the Python byte code. Additionally, it allowed interpolation between JS and Python by allowing JS elements to be called from Python with a new unique keyword.
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
-
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+# Silkbot
+-  project: Silkbot
+   description: Discord bot with Youtube integration to automatically play the latest video from @DailySilksongNews directly into voice chat

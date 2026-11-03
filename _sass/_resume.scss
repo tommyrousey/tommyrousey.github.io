@@ -21,7 +21,7 @@
 .page-header { padding: 1.5rem 0;
 
   .avatar {
-    width: 95px;
+    width: 130px;
     max-width: 100%;
     overflow: hidden;
     @include border-radius(100px);
@@ -174,6 +174,27 @@
   .resume-item-copy { margin: .75rem 0 0; }
 }
 
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+  /* 5 items * 1.4rem line-height = 7rem height */
+  height: 8.4rem; 
+  
+  /* Space between columns (horizontal) */
+  column-gap: 2rem; 
+  
+  padding-left: 1.2rem; 
+  margin: 0;
+}
+
+.skill-list li {
+  list-style-type: disc; 
+  
+  /* Reduced from 2rem to 1.4rem to bring lines closer together */
+  line-height: 1.4rem; 
+}
 // footer styles
 
 .page-footer {

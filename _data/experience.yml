@@ -1,19 +1,30 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+# HEB 
+- company: H-E-B
+  positions:
+    - position: Senior Security Engineer
+      duration: Jul 2024 &mdash; Present
+      summary: <ul class="resume-item-list"><li>Rolled out Semgrep scanning for SAST/SCA/Secrets to 100% of organizational git repos, reducing False Positives by 80%+ and Unreachable findings by 95%+</li><li>Created a GCP-native review tool with LLM-layer reasoning to help developers prioritize findings from Mythos-level threats</li><li>Developed GCP-native agentic AI reviewer tool to filter false-positive noise from DAST results with evidence audit trails</li><li>Lead team of 5 engineers in work planning and organization</li></ul>
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+    - position: Security Engineer
+      duration: Jan 2021 &mdash; Jul 2024
+      summary: <ul class="resume-item-list"><li>Automated developer cloud security remediation and response with Python AWS Lambdas in Step Functions to filter millions of AWS, GCP, and Azure signals per day to provide real-time developer messaging and ticketing</li><li>Rolled out Gitlab security scanning for SAST/SCA/Secrets to Gitlab CI across an organization of 14k+ git projects</li><li>Created a SCM-native tool to response to developer code changes with findings from Gitlab security scanning</li><li>Set up Terraform access patterns for developer teams in Hashicorp Vault</li><li>Engineered custom security scanner metrics from Gitlab webhooks</li></ul>
+
+    - position: Security Engineering Intern
+      duration: Jun 2020 &mdash; Jul 2020
+      summary: Interned in Application Security; developed an AWS Lamba-based restful service written in Golang and Terraform to allow users to subscribe to automatically renew a private certificate issued from Hashicorp Vault.
+    
+# WP Engine
+- company: WP Engine
+  positions:
+    - position: Software Engineering Intern
+      duration:  Jun 2019 &mdash; Aug 2019
+      summary: 'Interned in R&D working mainly in Golang, working on: <ul class="resume-item-list"><li>SSH-Gateway, a Kubernetes agent that spun up docker containers of WP installs to a linux shell environment to allow access via SSH</li><li>Devkit, a CLI program that utilized SSH-Gateway to clone WP installs locally to provide a Dev tool for WordPress</li><li>Implementing more accurate SLIs for SSH-Gateway through Prometheus metrics scraped by a Datadog sidecar</li></ul>'
 
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+# Experian
+- company: Experian
+  positions:
+    - position: Intern
+      duration:   Jun 2015 &mdash; Aug 2015, Jun 2016 &mdash; Aug 2016
+      summary: Interned with the Global File Transfer group; created file transfer accounts and learned Experian's automation process for file transfer.
