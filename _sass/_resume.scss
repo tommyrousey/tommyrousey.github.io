@@ -70,7 +70,11 @@
   }
 
   .executive-summary {
-    @include media_larger_than_mobile { font-size: 1.125rem; }
+    font-size: 11pt !important;    /* Slightly scales down the text for paper */
+    line-height: 1.5 !important;    /* Forces healthy spacing between lines */
+    margin-top: 12pt !important;   /* Creates a clean gap above the summary */
+    margin-bottom: 12pt !important;/* Creates a clean gap below the summary */
+    height: auto !important;       /* Prevents the text from being smashed into a fixed box */
   }
 }
 
